@@ -15,4 +15,7 @@ speak_to_grandma = gets.chomp
 if speak_to_grandma = "When_did_you_last_vist_Italy?"
   puts "HUH? SPEAK UP, SONNY!"
 elsif speak_to_grandma == "Visit_Italy?!"
-  puts ""
+  puts "CAN'T HEAR YOU!"
+else speak_to_grandma == "ITALY?"
+  puts "NO, NOT SINCE 1938"
+end
