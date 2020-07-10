@@ -11,7 +11,7 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-speak_to_grandma = gets.chomp
+def speak_to_grandma(String)
 if speak_to_grandma = "When_did_you_last_vist_Italy?"
   puts "HUH? SPEAK UP, SONNY!"
 elsif speak_to_grandma == "Visit_Italy?!"
